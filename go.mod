@@ -1,4 +1,4 @@
-module github.com/volatiletech/boilbench
+module github.com/aarondl/boilbench
 
 go 1.19
 
@@ -6,9 +6,9 @@ require (
 	github.com/friendsofgo/errors v0.9.2
 	github.com/gobuffalo/pop/v6 v6.0.1
 	github.com/jmoiron/sqlx v1.3.4
-	github.com/volatiletech/null/v8 v8.1.2
-	github.com/volatiletech/sqlboiler/v4 v4.14.1
-	github.com/volatiletech/strmangle v0.0.4
+	github.com/aarondl/null/v8 v8.1.2
+	github.com/aarondl/sqlboiler/v4 v4.14.1
+	github.com/aarondl/strmangle v0.0.4
 	gopkg.in/gorp.v1 v1.7.2
 	gorm.io/driver/postgres v1.0.2
 	gorm.io/gorm v1.20.2
@@ -81,8 +81,8 @@ require (
 	github.com/spf13/viper v1.15.0 // indirect
 	github.com/subosito/gotenv v1.4.2 // indirect
 	github.com/syndtr/goleveldb v1.0.0 // indirect
-	github.com/volatiletech/inflect v0.0.1 // indirect
-	github.com/volatiletech/randomize v0.0.1 // indirect
+	github.com/aarondl/inflect v0.0.1 // indirect
+	github.com/aarondl/randomize v0.0.1 // indirect
 	golang.org/x/crypto v0.7.0 // indirect
 	golang.org/x/net v0.8.0 // indirect
 	golang.org/x/sync v0.1.0 // indirect

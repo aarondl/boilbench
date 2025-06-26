@@ -16,7 +16,7 @@ To benchmark using a different version of SQLBoiler, you can use a module
 replacement that points at a local checkout. For example:
 
 ```sh
-go mod edit -replace github.com/volatiletech/sqlboiler/v4=/home/user/sqlboiler
+go mod edit -replace github.com/aarondl/sqlboiler/v4=/home/user/sqlboiler
 ```
 
 Regenerate the models as needed. The model generation script and the code in
@@ -27,6 +27,6 @@ dependency as needed.
 many runs of these benchmarks. They can be used to help update the sqlboiler
 README with new graphs.
 
-Graphs can be found in the [SQLBoiler](https://github.com/volatiletech/sqlboiler) readme.
+Graphs can be found in the [SQLBoiler](https://github.com/aarondl/sqlboiler) readme.
 
-The homepage for the [SQLBoiler](https://github.com/volatiletech/sqlboiler) is located at: https://github.com/volatiletech/sqlboiler
+The homepage for the [SQLBoiler](https://github.com/aarondl/sqlboiler) is located at: https://github.com/aarondl/sqlboiler

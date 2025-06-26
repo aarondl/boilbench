@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/volatiletech/boilbench/mimic"
+	"github.com/aarondl/boilbench/mimic"
 	"gorm.io/driver/postgres"
 	"xorm.io/xorm/dialects"
 )
